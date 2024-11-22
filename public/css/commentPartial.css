@@ -1,0 +1,75 @@
+.comment-box {
+    position: relative;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    word-wrap: break-word;
+    background-color: #131111;
+    border: 3px solid #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.comment-container {
+    /* margin-left: 10px*/
+    width: 550px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.deleteButtonCom{
+    position: relative;
+}
+
+.editButtonCom{
+    position: relative;
+}
+
+.comment-author{
+    width: 100%; 
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.comment-content{
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.comment-meta {
+    width: 100%; 
+    color: #888;
+    margin-left: 10px;
+}
+
+.comment-button {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    z-index: 999;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none; 
+}

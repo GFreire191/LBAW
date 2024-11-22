@@ -1,0 +1,113 @@
+.top-navbar {
+    display: flex;
+    align-items: center;
+    background-color: #131111;
+    padding: 10px;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+
+.top-navbar .logo {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.top-navbar .search-bar {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.top-navbar .navbar-actions {
+    display: flex;
+    align-items: center;
+}
+
+.top-navbar .navbar-actions .btn {
+    margin-left: 5px;
+}
+
+
+.search-bar {
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+.search-input {
+
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    padding: 5px 10px;
+    outline: none;
+}
+
+
+.search-btn {
+
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+
+}
+
+.button {
+
+    background-color: #f44336;
+
+    border: none;
+
+    color: white;
+
+    padding: 5px 10px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    font-size: 16px;
+
+    margin: 4px 2px;
+
+    cursor: pointer;
+
+    border-radius: 4px;
+
+}
+
+
+.button:hover {
+
+    background-color: #ff5722;
+
+}
+
+.container {
+
+    background-color: #FF807C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding-top: 80px;
+    
+    
+
+}
+
+

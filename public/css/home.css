@@ -1,0 +1,51 @@
+
+#FormButton {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+
+
+
+
+
+.editable-field {
+    width: 100%; 
+    font-size: 1em; 
+    
+}
+
+
+.answer-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    
+}
+
+
+.about_container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Add margin to the top */
+}
+
+.about_container h1 {
+    color: white;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px; /* Add margin to the top */
+}
+
+.about_container p {
+    color: black;
+    margin-bottom: 15px;
+}
+
+

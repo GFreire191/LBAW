@@ -1,0 +1,186 @@
+
+
+
+
+#answersContainer{
+    width: 70%;
+}
+
+
+.single-answer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+
+.answer-box {
+    position: relative;
+    width: 100%;
+    min-width: 100%;
+    word-wrap: break-word;
+    background-color: #131111;
+    border: 3px solid #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.answer-author{
+    width: 100%; 
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.answer-content,
+.answer-meta {
+    color: #ffffff;
+    margin-left: 10px;
+    box-sizing: border-box; /* add this line */
+}
+
+.editable-field {
+    width: 100%;
+    max-width: 600px;
+    word-wrap: break-word;
+}
+
+.button-container {
+    position: absolute;
+    top: 20px;
+    right: 3%;
+    
+}
+
+
+
+#deleteButtonAn {
+    position: relative;
+}
+
+#editButtonAn {
+    position: relative;
+}
+
+#commentButtonAns{
+    right: 40px;
+}
+
+#hideComentsAns{
+    right: 40px;
+}
+
+#answerCircle{
+    margin-left: 10px;
+}
+
+.answer-button {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 10px 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+    
+
+a {
+    color: #ffffff;
+    text-decoration: none; 
+}
+
+
+
+
+
+
+
+
+.answer-button:hover,
+.answer-button:active {
+  background-color: initial;
+  color: #FF4742;
+}
+
+.answer-button:active {
+  opacity: .5;
+}
+
+.answer-button:hover,
+.answer-button:active {
+  background-color: initial;
+  color: #FF4742;
+}
+
+.answer-button:active {
+  opacity: .5;
+}
+
+
+.answer-correct{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+.correct-button {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 22px;
+    height: 22px;
+    border: 2px solid;
+    transform: scale(var(--ggs,1));
+    border-radius: 4px
+}
+
+.correct-button::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 3px;
+    top: -1px;
+    width: 6px;
+    height: 10px;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    transform-origin: bottom left;
+    transform: rotate(45deg)
+}
+
+
+.correct-button.remove-correct{
+    color: #FF4742;
+}
+
+.correct-button.correct{
+    color: #FF4742;
+}
+
+
+
+
+
+
+
+
+

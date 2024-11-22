@@ -7,10 +7,9 @@
 
 ## Project Components
 
-* [ER: Requirements Specification]()
-* [EBD: Database Specification]()
-* [EAP: Architecture Specification and Prototype]()
-* [PA: Product and Presentation]()
+* [EBD: Database Specification](https://github.com/GFreire191/LBAW/blob/main/DBSPECS.md)
+* [EAP: Architecture Specification and Prototype](https://github.com/GFreire191/LBAW/blob/main/ArchitectureSpecPrototype.md)
+* [PA: Product and Presentation](https://github.com/GFreire191/LBAW/blob/main/ProductPresentation.md)
 
 ## Artefacts Checklist
 
@@ -18,11 +17,10 @@
 
 ## Team
 
-* Group member 1 name, email
-* Group member 2 name, email
-* Group member 3 name, email
-* Group member 4 name, email
+* Diogo Vale, up201805152@up.pt
+* Guilerme Freire, up202004809@up.pt
+* João Lopes, up201805078@up.pt
 
 ---
 
-GROUP21gg, DD/MM/2021
+GROUP21gg, 21/12/2023
